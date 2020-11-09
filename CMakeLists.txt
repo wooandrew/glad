@@ -31,7 +31,7 @@ else()
 endif()
 
 # Options
-set(GLAD_OUT_DIR "${CMAKE_CURRENT_SOURCE_DIR}" CACHE STRING "Output directory")
+set(GLAD_OUT_DIR "${CMAKE_SOURCE_DIR}" CACHE STRING "Output directory")
 set(GLAD_PROFILE "compatibility" CACHE STRING "OpenGL profile")
 set(GLAD_API "" CACHE STRING "API type/version pairs, like \"gl=3.2,gles=\", no version means latest")
 set(GLAD_GENERATOR "c" CACHE STRING "Language to generate the binding for")
